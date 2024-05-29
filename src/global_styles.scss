@@ -1,0 +1,10 @@
+/* Add application styles & imports to this file! */
+@import 'scss1/mixins';
+
+.image-container {
+  // background-image: url('../angular.png');
+  @include image-container;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
